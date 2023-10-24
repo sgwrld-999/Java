@@ -12,8 +12,7 @@ public static void main(String[] args) {
 //        } finally {
 //            System.out.println("Finally");
 //        }
-
 //    System.out.println(1/0);
-    System.out.println("The is the end of the program");
+
     }
 }
