@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ITWorkShop/Assignment3/Assignment3.iml" filepath="$PROJECT_DIR$/ITWorkShop/Assignment3/Assignment3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ITWorkShop/Assignment_4/Assignment_4.iml" filepath="$PROJECT_DIR$/ITWorkShop/Assignment_4/Assignment_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ITWorkShop/Assignment_5/Assignment_5.iml" filepath="$PROJECT_DIR$/ITWorkShop/Assignment_5/Assignment_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ITWorkShop/ITWorkShop.iml" filepath="$PROJECT_DIR$/ITWorkShop/ITWorkShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Implementation_Practice/Implementation_Practice.iml" filepath="$PROJECT_DIR$/Implementation_Practice/Implementation_Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Practice.iml" filepath="$PROJECT_DIR$/Practice/Practice.iml" />
+    </modules>
+  </component>
+</project>
