@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     static Scanner scanner = new Scanner(System.in);
@@ -52,17 +49,7 @@ public class Main {
         printStudentList(studentsList);
     }
 
-    public static void printStudentList(ArrayList<Student> studentList, String message) {
-        System.out.println(message);
-        int i = 1;
-        for (Student obj : studentList) {
-            System.out.println("Printing the details of student " + i + " : ");
-            System.out.println("Student Name: " + obj.getName());
-            System.out.println("Student Roll: " + obj.getRoll());
-            System.out.println("Student Birth Year: " + obj.getBirthYear());
-            i++;
-        }
-    }
+    //Sort function for sorting the arraylist according to the roll number
     public static void sortingReverseOrderRoll(ArrayList<Student> arrayList) {
         Collections.sort(arrayList, new Comparator<Student>() {
             @Override
@@ -71,7 +58,7 @@ public class Main {
             }
         });
     }
-
+    // Sorting the arraylist according to the birth year
     public static void sortingByBirthYear(ArrayList<Student> arrayList) {
         Collections.sort(arrayList, new Comparator<Student>() {
             @Override
@@ -83,6 +70,7 @@ public class Main {
         });
     }
 
+    //Printing the student list
     public static void printStudentList(ArrayList<Student> studentList) {
         int i = 1;
         for (Student obj : studentList) {
@@ -93,4 +81,5 @@ public class Main {
             i++;
         }
     }
+
 }

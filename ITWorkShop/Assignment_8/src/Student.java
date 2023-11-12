@@ -50,6 +50,10 @@ class Student implements Comparable<Student> {
         public int compare(Student student1, Student student2) {
             return Integer.compare(student2.roll, student1.roll);
         }
+//        @Override
+//        public int compare(Student std1 ,Student std2){
+//            return Integer.compareTo(std1.roll,std1.roll);
+//        }
     };
 
     public static final Comparator<Student> BirthYearComparator = new Comparator<Student>() {
