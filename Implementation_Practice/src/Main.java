@@ -1,41 +1,23 @@
-import Interfaces_Implementation.*;
+import ObjectSorting.sortingObjectsClass;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        IIITGHostel obj = new IIITGHostel();
-        obj.name = "Bijat" ;
-        obj.NumberOfpeopleRoomsharing = 5 ;
-        obj.roomNum = 234 ;
-        obj.age = 20 ;
-        obj.roomNumber(obj.roomNum);
-    }
+        ArrayList<sortingObjectsClass> employees = new ArrayList<>(5);
+        // Attributes of the employees -> age, name, Id, salary, department
+        employees.add(new sortingObjectsClass(25, "John", 1, 1000, "IT"));
+        employees.add(new sortingObjectsClass(30, "Mary", 2, 2000, "HR"));
+        employees.add(new sortingObjectsClass(35, "Peter", 3, 3000, "Finance"));
+        employees.add(new sortingObjectsClass(40, "Paul", 4, 4000, "Marketing"));
+        employees.add(new sortingObjectsClass(45, "James", 5, 5000, "Sales"));
 
-}
-class IIITGHostel implements Hostel, studentDetails{
-    String name ;
-    int age ;
-    int roomNum ;
-    int NumberOfpeopleRoomsharing;
-    @Override
-    public int roomNumber(int num) {
-        System.out.println("The Room number of the given student is : " + num);
-        return num;
-    }
+        // Sorting by age using natural ordering
+        Collections.sort(employees);
 
-    @Override
-    public int numberOfPeopleInRoom(int num) {
-        System.out.println("The number of people living in a room is :" + num);
-        return num;
-    }
-
-    @Override
-    public void nameOfTheStudent(String name) {
-        System.out.println("Student Name : " + name);
-    }
-
-    @Override
-    public void ageOfTheStudent(int age) {
-        System.out.println("Student age : " + age);
+        // Printing the sorted list
+        for (sortingObjectsClass employee : employees) {
+            System.out.println(employee.getAge() + " " + employee.getName());
+        }
     }
 }

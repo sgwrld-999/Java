@@ -26,9 +26,10 @@ interface Driver {
 }
 
 interface Singer {
-    int sing();
+    int sing();//It's an abstract method
     void riyaz();
 }
+//Write an code copilot
 
 public class Employee extends Person implements Driver, Singer {
     public Employee(int age) {

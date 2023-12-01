@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/ITWorkShop/ITWorkShop.iml" filepath="$PROJECT_DIR$/ITWorkShop/ITWorkShop.iml" />
       <module fileurl="file://$PROJECT_DIR$/Implementation_Practice/Implementation_Practice.iml" filepath="$PROJECT_DIR$/Implementation_Practice/Implementation_Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaLabTest/JavaLabTest.iml" filepath="$PROJECT_DIR$/JavaLabTest/JavaLabTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice/Practice.iml" filepath="$PROJECT_DIR$/Practice/Practice.iml" />
     </modules>
   </component>
